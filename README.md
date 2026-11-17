@@ -1,4 +1,4 @@
-# SENTINEL - Mini SOC Analyst Dashboard
+﻿# SENTINEL - Mini SOC Analyst Dashboard
 
 SENTINEL is a local defensive-security dashboard for the analyst workflow between raw telemetry and triage decisions. It surfaces suspicious authentication activity and supports a compact alert-investigation workflow.
 
@@ -23,6 +23,27 @@ The dashboard simulates a small SOC responding to risky login behaviour and susp
 - Hash-based navigation across Overview, Alerts, Threats, Intel, and Reports, including browser history support
 - Local-only execution for portfolio-safe demos and learning use
 
+## 🖥️ Dashboard Preview
+
+### Overview
+
+The main dashboard provides an at-a-glance view of authentication activity, event metrics, and security alerts.
+
+![SENTINEL Dashboard Overview](docs/screenshots/dashboard-overview.png)
+
+### Alerts
+
+The Alerts interface supports severity-based prioritisation, filtering, and analyst investigation workflows.
+
+![SENTINEL Alerts Dashboard](docs/screenshots/alerts.png)
+
+### Threat Monitoring
+
+The Threats interface provides access to the Windows Security Events panel for local defensive monitoring.
+
+![SENTINEL Threat Monitoring](docs/screenshots/threats.png)
+
+---
 ## Operator workflow
 
 - Overview cards for total events, successful logins, failed logins, and suspicious IPs
@@ -137,3 +158,4 @@ This project uses synthetic, fictional telemetry for education, portfolio demons
 - Historical trend comparison and retention
 - Role-based analyst workflows and access layers
 - Deeper drilldowns into related hosts, usernames, and attack paths
+
