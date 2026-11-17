@@ -69,18 +69,12 @@ The Threats view currently contains the Windows Security Events panel. Intel and
 
 ## Installation
 
-```bash
-python -m venv .venv
+### Windows
 
-# Windows
-.venv\Scripts\activate
-
-# Linux/macOS
-source .venv/bin/activate
-
-pip install -r requirements.txt
-```
-
+```powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
 ## Run locally
 
 ```bash
